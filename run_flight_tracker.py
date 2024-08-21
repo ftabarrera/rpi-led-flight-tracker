@@ -20,8 +20,8 @@ config.mapping_box_height_mi = 20
 config.mapping_box_height_mi = 20
 
 # latitude and longitude of the center of the display
-config.base_latitude = 30.00     # Enter the latitude of the device
-config.base_longitude = -86.00    # Enter the longitude of the device
+config.base_latitude = 29.56804     # Enter the latitude of the device
+config.base_longitude = -98.51541    # Enter the longitude of the device
 
 # flags for setting visibility of aircraft traces and callsign
 config.traces = True
