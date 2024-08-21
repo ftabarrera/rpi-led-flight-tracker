@@ -29,7 +29,7 @@ cd ~
 ## Installation
 - First clone this repository
 ```
-git clone https://github.com/Weslex/rpi-led-flight-tracker && cd rpi-led-flight-tracker
+git clone https://github.com/ftabarrera/rpi-led-flight-tracker.git && cd rpi-led-flight-tracker
 ```
 
 - Install dump1090 and rpi-rgb-led-matrix
