@@ -35,8 +35,8 @@ class FlightTrackerConfig:
         self.dump1090_host: str = "localhost"
         self.dump1090_port: int = 30003
         # Defualt to centering around BNA
-        self.base_latitude = 36.1244750
-        self.base_longitude = -86.6781806
+        self.base_latitude = 29.56804
+        self.base_longitude = -98.51541
         self.mapping_box_width_mi: float = 50.0
         self.mapping_box_height_mi: float = 50.0
         self.traces: bool = True
