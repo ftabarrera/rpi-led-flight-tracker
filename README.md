@@ -3,6 +3,29 @@ Track the aircraft flying above you using a Raspberry Pi, RTL-SDR, and an LED ma
 
 ![Example of the flight tracker running on raspberry pi](https://github.com/Weslex/rpi-led-flight-tracker/blob/main/example_img.png)
 
+Add these beforehand if running fresh minimal rebuild
+```
+sudo apt install python3-pip
+sudo apt-get install git
+sudo apt-get install cmake
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install build-essential
+sudo apt-get install pkg-config
+```
+
+Then run the following so you can have rtl-sdr
+```
+git clone git://git.osmocom.org/rtl-sdr.git
+cd rtl-sdr
+mkdir build
+cd build
+cmake ../ -DINSTALL_UDEV_RULES=ON
+make
+sudo make install
+sudo ldconfig
+cd ~
+```
+
 ## Installation
 - First clone this repository
 ```
@@ -15,7 +38,7 @@ git clone https://github.com/antirez/dump1090 && cd dump1090
 make
 cd ..
 
-git clone https://github.com/hzeller/rpi-rgb-led-matrix && cd rpi-led-matrix
+git clone https://github.com/hzeller/rpi-rgb-led-matrix && cd rpi-rgb-led-matrix
 sudo apt-get update && sudo apt-get install python3-dev cython3 -y
 make build-python 
 sudo make install-python
