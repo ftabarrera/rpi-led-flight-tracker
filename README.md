@@ -25,6 +25,11 @@ sudo make install
 sudo ldconfig
 cd ~
 ```
+#In my Blacklist FIle, /etc/modprobe.d/blacklist I have tried saving both of the following individually with
+sudo nano /etc/modprobe.d/blacklist
+
+blacklist RTL28xxU
+blacklist RTL2832U
 
 ## Installation
 - First clone this repository
