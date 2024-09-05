@@ -4,12 +4,12 @@ def main():
     options = RGBMatrixOptions()
     options.rows = 64
     options.col = 64
-    options.chain_length = 4
-    options.parallel = 1
+    options.chain_length = 2
+    options.parallel = 2
     options.gpio_slowdown = 3
-    options.pwm_dither_bits = 0
+    #options.pwm_dither_bits = 0
     options.pwm_bits = 11
-    options.pixel_mapper_config = 'U-mapper;Rotate:270'
+    #options.pixel_mapper_config = 'U-mapper;Rotate:270'
 
     matrix = RGBMatrix(options=options)
     while True:
