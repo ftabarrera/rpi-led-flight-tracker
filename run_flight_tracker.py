@@ -12,7 +12,6 @@ config.chain_length = 2
 config.parallel = 2
 config.pwm_bits = 11
 config.pwm_dither_bits = 2
-config.multiplexing = 1
 config.pixel_mapper_config = "" #"U-mapper;Rotate:-90"
 
 
