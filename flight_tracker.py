@@ -19,7 +19,7 @@ class FlightTrackerConfig:
         self.total_rows: int = 128
         self.total_cols: int = 128
         self.gpio_slowdown: int = 3
-        self.pwm_dither_bits: int = 2
+        #self.pwm_dither_bits: int = 2
         self.pwm_bits: int = 11
         self.chain_length: int = 2
         self.parallel: int = 2
