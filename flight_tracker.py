@@ -54,7 +54,7 @@ class FlightTracker:
         self.display_config.rows = config.rows_per_display
         self.display_config.cols = config.cols_per_display
         self.display_config.gpio_slowdown = config.gpio_slowdown
-        self.display_config.pwm_dither_bits = config.pwm_dither_bits
+        #self.display_config.pwm_dither_bits = config.pwm_dither_bits
         self.display_config.pwm_bits = config.pwm_bits
         self.display_config.chain_length = config.chain_length
         self.display_config.parallel = config.parallel
