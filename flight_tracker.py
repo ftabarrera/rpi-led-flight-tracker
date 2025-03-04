@@ -19,11 +19,11 @@ class FlightTrackerConfig:
         self.total_rows: int = 128
         self.total_cols: int = 128
         self.gpio_slowdown: int = 4
-        #self.pwm_dither_bits: int = 2
+        self.pwm_dither_bits: int = 2
         self.pwm_bits: int = 11
-        self.chain_length: int = 2
-        self.parallel: int = 2
-        self.pixel_mapper_config: str = "" #"U-mapper;Rotate:-90"
+        self.chain_length: int = 4
+        self.parallel: int = 1
+        self.pixel_mapper_config: str = "U-mapper;Rotate:-90" #"U-mapper;Rotate:-90"
         self.rows_per_display: int = 64
         self.cols_per_display: int = 64
 
