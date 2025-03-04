@@ -26,6 +26,8 @@ class FlightTrackerConfig:
         self.pixel_mapper_config: str = "U-mapper;Rotate:-90" #"U-mapper;Rotate:-90"
         self.rows_per_display: int = 64
         self.cols_per_display: int = 64
+        #attempting adafruit hat
+        self.hardware_mapping: str = "adafruit-hat"
 
         # Flight tracking configuration
         self.path_to_static_map: str = ""
