@@ -5,7 +5,7 @@ Track the aircraft flying above you using a Raspberry Pi, RTL-SDR, and an LED ma
 
 Add these beforehand if running fresh minimal rebuild
 ```
-sudo apt install -y python3-pip git cmake libusb-1.0-0-dev build-essential pkg-config
+sudo apt install -y python3-pip git cmake libusb-1.0-0-dev build-essential pkg-config python3-dev cython3
 ```
 
 Then run the following so you can have rtl-sdr
@@ -40,7 +40,6 @@ make
 cd ..
 
 git clone https://github.com/hzeller/rpi-rgb-led-matrix && cd rpi-rgb-led-matrix
-sudo apt-get update && sudo apt-get install python3-dev cython3 -y
 make build-python 
 sudo make install-python
 cd ..
