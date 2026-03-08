@@ -5,12 +5,7 @@ Track the aircraft flying above you using a Raspberry Pi, RTL-SDR, and an LED ma
 
 Add these beforehand if running fresh minimal rebuild
 ```
-sudo apt install python3-pip
-sudo apt-get install git
-sudo apt-get install cmake
-sudo apt-get install libusb-1.0-0-dev
-sudo apt-get install build-essential
-sudo apt-get install pkg-config
+sudo apt install -y python3-pip git cmake libusb-1.0-0-dev build-essential pkg-config
 ```
 
 Then run the following so you can have rtl-sdr
